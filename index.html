@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad Jokes Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+
+<body
+    class="bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 flex items-center justify-center min-h-screen relative overflow-hidden">
+    <div id="emojiContainer" class="absolute inset-0 pointer-events-none z-0"></div>
+    <div
+        class="bg-white rounded-lg shadow-2xl p-8 max-w-md w-full relative z-10 transition-transform transform-gpu hover:scale-105 duration-300 ease-in-out">
+        <h1 class="text-3xl font-extrabold mb-6 text-gray-900 text-center">Dad Jokes Generator</h1>
+        <button id="getJokeBtn"
+            class="bg-indigo-500 text-white py-2 px-6 rounded-lg shadow-md hover:bg-indigo-600 transition duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-indigo-300">
+            Tell Me A Joke
+        </button>
+        <p id="jokeDisplay"
+            class="mt-6 text-xl text-gray-800 text-center transition-transform transform-gpu scale-100 hover:scale-105 duration-300 ease-in-out">
+            Click the button to get a joke!</p>
+    </div>
+    <script src="/assets/script.js"></script>
+</body>
+
+</html>
